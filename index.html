@@ -8,8 +8,13 @@
   <body>
     <h1>Welcome to Animado!</h1>
     <p>Your animation journey starts here.</p>
-    <h2 id="waktu">10</h2>
+    <div style="display: flex">
+      <h2 id="minute">25</h2>
+      <h2>:</h2>
+      <h2 id="sec">00</h2>
+    </div>
     <button onclick="play()">Start</button>
+    <button onclick="pause()">Pause</button>
     <button onclick="reset()">Reset</button>
     <script src="script.js"></script>
   </body>
